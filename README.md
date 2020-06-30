@@ -9,6 +9,7 @@
 
 * Step 1: Load Printer Profile (ie. SKR Bear Printer)
 * Step 2: Set your esteps in Printer Type > Advanced - Step-E per MM
+** Stock - 280 | BMG - 830 | Pulleybox/LDO Geared - 980
 * Step 3: Confirm that Printer type > Advanced - Omit RaiseTouch Specific Gcode is enabled
 * Step 4: Confirm that Printer type > Advanced - Relative Extrusion is enabled
 * Step 5: Load Profiles (ie. SKR CFPETG)
