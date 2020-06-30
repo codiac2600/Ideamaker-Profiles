@@ -51,8 +51,7 @@ M104 S{temperature_extruder1} ; set extruder temp
 M109 S{temperature_extruder1} ; wait for extruder temp
 M900 K0.05; Linear advance setting
 G92 E0.0
-G1 Z0.2 ;
-G1 X100.0 E30.0  F1000.0 ; intro line
+G1 Z0.2 X100.0 E30.0 F1000.0 ; intro line
 G92 E0.0
 ```
 
