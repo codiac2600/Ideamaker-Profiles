@@ -33,10 +33,11 @@ M900 K0.05; Linear advance setting
 G92 E0.0
 G1 Z0.2 X100.0 E30.0 F1000.0 ; intro line
 G92 E0.0
-'''
+```
 
 ### Stock Marlin UBL
 
+```gcode
 G90 ; Absolute
 M83 ; extruder relative mode
 G28 ; Home all axes
@@ -52,9 +53,11 @@ G92 E0.0
 G1 Z0.2 ;
 G1 X100.0 E30.0  F1000.0 ; intro line
 G92 E0.0
+```
 
 ### Stock Prusa Firmware
 
+```gcode
 G90 ; Absolute Positioning
 M83 ; extruder relative mode
 M140 S{temperature_heatbed} ; set bed temp
@@ -69,11 +72,12 @@ M900 K0.05; Linear advance setting
 G92 E0.0
 G1 Z0.2 X100.0 E30.0 F1000.0 ; intro line
 G92 E0.0
-
+```
 ## Layer Change Gcode
 
-Add - G92 E0.0
-
+```gcode
+G92 E0.0
+```
 
 
 
