@@ -67,7 +67,7 @@ G92 E0.0
 G1 Z0.2 X100.0 E30.0 F1000.0 ; intro line
 G92 E0.0
 
-##Layer Change Gcode
+## Layer Change Gcode
 
 Add - G92 E0.0
 
