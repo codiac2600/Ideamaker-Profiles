@@ -8,15 +8,17 @@
 ## How To
 
 Step 1: Load Printer Profile (ie. SKR Bear Printer)
-Step 2: Confirm that Printer type > Advanced - Omit RaiseTouch Specific Gcode is enabled
-Step 3: Confirm that Printer type > Advanced - Relative Extrusion is enabled
-Step 3: Load Profiles (ie. SKR CFPETG)
+Step 2: Set your esteps in Printer Type > Advanced - Step-E per MM
+Step 3: Confirm that Printer type > Advanced - Omit RaiseTouch Specific Gcode is enabled
+Step 4: Confirm that Printer type > Advanced - Relative Extrusion is enabled
+Step 5: Load Profiles (ie. SKR CFPETG)
 
 
 ## Start Gcode 
 
 ### Stock Marlin ABL
 
+```gcode
 G90 ; Absolute Positioning
 M83 ; extruder relative mode
 M140 S{temperature_heatbed} ; set bed temp
@@ -31,6 +33,7 @@ M900 K0.05; Linear advance setting
 G92 E0.0
 G1 Z0.2 X100.0 E30.0 F1000.0 ; intro line
 G92 E0.0
+'''
 
 ### Stock Marlin UBL
 
