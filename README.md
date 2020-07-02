@@ -6,6 +6,8 @@
 * [Prusa Firmware](https://github.com/prusa3d/Prusa-Firmware)
 
 ## How To
+* [Profile Import Video](https://youtu.be/xpCn3DiZKgA)
+
 
 * Step 1: Load Printer Profile (ie. SKR Bear Printer)
 * Step 2: Set your esteps in Printer Type > Advanced - Step-E per MM
