@@ -42,7 +42,7 @@ G92 E0.0
 G90 ; Absolute
 M83 ; extruder relative mode
 G28 ; Home all axes
-G29 S1 ; Load UBL Slot 1
+G29 L1 ; Load UBL Slot 1
 M140 S{temperature_heatbed} ; set bed temp
 M190 S{temperature_heatbed} ; wait for bed temp
 G29 J2; 4 point mesh tilt
