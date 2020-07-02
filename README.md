@@ -70,10 +70,11 @@ G80 ; mesh bed leveling set 3x3, 5x5, or 7x7 in settings menu
 G1 Y-3.0 Z0.6 F1000.0 ; go outside print area for purge
 M104 S{temperature_extruder1} ; set extruder
 M109 S{temperature_extruder1} ; wait for extruder temp
-M900 K0.05; Linear advance setting
+M900 K30; Linear advance setting LA1.5 value K0.05
 G92 E0.0
 G1 Z0.2 X100.0 E30.0 F1000.0 ; intro line
 G92 E0.0
+M221 S95 ; Filament Flowrate
 ```
 ## Layer Change Gcode
 
